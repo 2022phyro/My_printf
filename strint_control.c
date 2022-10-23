@@ -32,3 +32,29 @@ int count(int x, base b)
     }
     return (i);
 }
+int matchint(char c)
+{
+    char s[] = "diobxX";
+    int i;
+    for (i = 0; *(s + i) != '\0'; i++)
+    {
+        if (*(s + i) is c)
+        {
+            return (1);
+        }
+    }
+    return (0);
+}
+int matchar(char c)
+{
+    char s[] = "srR";
+    int i;
+    for (i = 0; *(s + i) != '\0'; i++)
+    {
+        if (*(s + i) is c)
+        {
+            return (1);
+        }
+    }
+    return (0);
+}
