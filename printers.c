@@ -16,7 +16,7 @@ int _puts(char *s)
     }
     return (_strlen(s));
 }
-int _printROT13(char *s)
+int printROT13(char *s)
 {
     char a[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
     char b[] = "nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM";
